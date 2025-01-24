@@ -1,0 +1,13 @@
+server:
+  servlet:
+    context-path: /
+  port: 9090
+
+spring:
+  application:
+    name: printer
+  banner:
+    location: classpath:/banner/banner.txt
+
+printer:
+  name: POS-80
