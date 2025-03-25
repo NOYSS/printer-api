@@ -105,8 +105,7 @@ public class PrinterService implements Printable {
         }
     }
 
-    private PrintService findPrintService(String printerName,
-                                          PrintService[] services) {
+    private PrintService findPrintService(String printerName, PrintService[] services) {
         for (PrintService service : services) {
             if (service.getName().equalsIgnoreCase(printerName)) {
                 return service;

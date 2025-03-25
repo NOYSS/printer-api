@@ -1,1 +1,3 @@
-# printer-api
+# Thermal printer api
+
+### ESC/POS Commands:
